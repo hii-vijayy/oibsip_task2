@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    height: 100vh;
+    background-color: #FEFAF6;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    padding: 0;
+}
+
+.header{
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+}
+.quote {
+    display: flex;
+    align-items: center;
+    padding: 50px; /* Matching padding with .biography */
+    margin: 10px;
+    margin-top: 50px; /* Adjusted to match .biography */
+    background-color: #90d594;
+    overflow: hidden; /* Clear floats */
+}
+
+.image-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Space between image and tagline */
+}
+
+.image-name img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: block; /* Remove any default margins from img */
+    margin-bottom: 10px; /* Space between image and name */
+}
+
+.image-name h3 {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 400;
+    margin: 0; /* Remove top margin to match closely with .biography h3 */
+}
+
+#tagline {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.biography {
+    margin: 10px;
+    /* margin-top: 50px; */
+    width: fit-content;
+    background-color: #c0e9c2;
+    padding: 50px;
+    overflow: hidden; /* Clear floats */
+}
+
+.biography h3 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.content img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    float: right;
+    margin-left: 20px;
+}
+
+.content p {
+    padding:15px 0;
+    margin: 0;
+    text-align: justify;
+    text-align-last: left; /* For last line alignment */
+    line-height: 1.6; /* Adjust line spacing as needed */
+    flex-grow: 1; /* Equal length paragraphs */
+}
+
+.achivements{
+    margin: 10px;
+    padding: 50px;
+    background-color: #E0FBE2;
+    margin-bottom: 0;
+}
+
+.achivements h3{
+    font-size: 35px;
+}
+
+#list li{
+    text-align: justify;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+#footer{
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#footer h3{
+    font-weight: 300;
+    padding: 10px;
+}
